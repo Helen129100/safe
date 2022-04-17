@@ -423,9 +423,10 @@ main{
    
   }
 main{
+  font-size:120%;
   width: 100%;
   padding: 0px;
-  margin: 40px 5px;
+  margin: 5px 40px;
 }
 header{
 
