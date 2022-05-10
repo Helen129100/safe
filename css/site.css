@@ -1,6 +1,7 @@
 a{
   text-decoration: none;
-}body {
+}
+body {
   background-color: #ffffffe0;
  line-height: 22px;
  font-family: "Georgia", serif;
@@ -213,9 +214,9 @@ footer{
  background-color: rgb(0, 0, 0);
  color: aliceblue;
  height: 50px;
- top:95%;
+ top: 95%;
  width:100%;
- position: fixed;
+ 
 }
 
 @keyframes show_header {
