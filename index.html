@@ -14,20 +14,36 @@
       <nav class="navbar" id="navbar">
            <h2 class="name"  >safe</h2>
           
-         <ul >
+         <ul class="nav_menu" id="nav_menu" >
            
-             <li><a href="index.html">на главную</a> </li>
-             <li>|</li>
-             <li><a href="index2.html " >защита данных </a></li>
-             <li>|</li>
-              <li><a href="index4.html"> полезные ссылки </a></li>
+             <li class ="nav_item"><a href="index.html" class="nav_link">на главную</a> </li>
+             <li class ="nav_item">|</li>
+             <li class ="nav_item"><a href="index2.html "  class="nav_link">защита данных </a></li>
+             <li class ="nav_item">|</li>
+              <li class ="nav_item"><a href="index4.html" class="nav_link"> полезные ссылки </a></li>
          </ul>
+         <div class="hamb">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div> 
+       
       </nav>
       <div class="container">
          <p class="title "> Особенности работы средств информационной безопасности</p>
       </div>
  
   </header>
+   <script type="text/javascript" ">
+    let hamb = document.querySelector(".hamb");
+    let navMenu =document.querySelector(".nav_menu");
+     hamb.addEventListener("click", mobileMenu);
+    
+    function mobileMenu(){
+      hamb.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    }
+    </script>
   <main>
     <section class="block1">
       <h2 class="block1">Понятие информационной безопасности</h2>
