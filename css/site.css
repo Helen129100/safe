@@ -134,8 +134,7 @@ display: flex;
   width: 70%;
   /*padding-left: 9%;*/
   padding-right: 5%;
-  
- 
+  margin-top: 3.3%; 
  
 }
 .part1_2_main{
@@ -143,7 +142,7 @@ display: flex;
   padding: 0 2%;
 }
 .part2_main{
-  margin:  3% 2%;
+  margin:  6.5% 2%;
   padding: 2% 1%;
   width: 30%;
   height: 100%;
@@ -180,14 +179,14 @@ font-size: 15px;
 }
 .page4{
   height: 100%;
- padding:   6% 2% 20% 2%;
+ padding:   6% 2% 80% 2%;
 
 }
 h2{
   font-weight:600;
 }
 .block1{
- padding-top: 20px;
+ 
  margin-bottom: 10px;
 }
 .block1 p{
@@ -195,7 +194,7 @@ h2{
  margin-top: 20px;
  background-color: rgb(63, 63, 63); 
  padding: 3% 2%;
-
+text-align: justify;
 
 }
 h1{
@@ -211,7 +210,14 @@ b{
 .block2{
  margin-bottom: 10px;
  margin-top: 10px;
+  text-align: justify;
 }
+.block21{
+  margin-bottom: 10px;
+  margin-top: 10px;
+ 
+ }
+
 .block3_b{
  width: 100%;
  
@@ -306,7 +312,7 @@ footer{
   }
   .nav_link{
     color: #000000;
-
+    font-size: 50px;
   }
   .navbar{
     justify-content: space-between;
@@ -370,17 +376,38 @@ footer{
   
    main{
     
-    padding: 6% 3% ;
-   
+    padding: 0  ;
+   margin: 0;
   }
-  
+.part2_main{
+  display: none;
+}   
+.part1_main{
+  margin: auto;
+  width: 90%;
+  /*padding-left: 9%;*/
+  padding-right: 0;
+  margin-top: 0; 
+ 
+}  
 }
 @media screen and (max-width:768px)  {
   main{
+
     margin: 0;
-    padding: 4% 3%  ;
+    padding: 0 0  ;
    
   }
+  .part2_main{
+    display: none;
+  }   
+  .part1_main{
+    width: 90%;
+    /*padding-left: 9%;*/
+    padding-right: 0;
+    margin-top: 0; 
+   margin: auto;
+  }  
   .nav-item{
     padding: 4%;
   }
@@ -431,6 +458,13 @@ footer{
 
 }
 }
+
+ 
+  
+  
+  
+ 
+
 
  
   
