@@ -256,21 +256,55 @@ footer{
   
 }
 @media screen and (max-width:998px)  {
-  ul li{
-    display: inline-block;
-  padding: 0px 5px ;
-   color: #fff;
-   text-decoration: none;
-   
+  .nav-item{
+    padding: 4%;
   }
-  ul li  a{
-  font-size: 20px;
-   display: inline-block;
+  .nav_link{
+    color: #000000;
+
+  }
+  .navbar{
+    justify-content: space-between;
+  }
+  .name{
+    line-height: 75px;
+  }
+  .nav_menu{
+    height: 50%;
+  color: #000000;
+  padding:  2rem 0;
+    position: fixed;
+    flex-direction:column ;
+    background-color: rgb(255, 250, 250);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0,0,0,0.5);
+    left:-100%;
+    top:4rem
+    }
+  .nav_menu.active{
+    left: 0;
+  }
   
-   color: #fff;
-   text-transform: uppercase; /*сделать все буквы большими*/
-    text-decoration:none ;/*убрать подчеркивания*/
+  .hamb{
+    
+    display: block;
+    cursor: pointer;
   }
+  .hamb.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamb.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+  }
+  .hamb.active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+  }
+  .container{
+ font-size: 20px;
+
+}
   .container{
     position: relative;
     display: flex;
@@ -356,6 +390,10 @@ footer{
  
   
   
+  
+ 
+
+
   
  
 
